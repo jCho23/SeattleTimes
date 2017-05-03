@@ -47,7 +47,11 @@ namespace SeattleTimes
 			app.Screenshot("Next we Tapped 'Local News'");
 
 			app.ScrollDown();
+			app.Screenshot("We Scrolled Down for more information");
+			Thread.Sleep(4000);
 
+			app.Tap("action_refresh");
+			app.Screenshot("Then we Tapped the 'Refresh' Button");
 		}
 
 	}
