@@ -35,7 +35,13 @@ namespace SeattleTimes
 		[Test]
 		public void FirstTest()
 		{
-			
+			app.Tap("up");
+			app.Tap("Top Stories");
+
+			app.Tap("up");
+			app.Tap("Local News");
+			app.Screenshot();
+
 		}
 
 	}
