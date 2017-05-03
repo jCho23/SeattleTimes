@@ -36,6 +36,7 @@ namespace SeattleTimes
 		[Test]
 		public void HamburgerIconTest()
 		{
+			Thread.Sleep(8000);
 			app.Tap("up");
 			app.Screenshot("Let's start by Tapping on the Hamburger Icon");
 			Thread.Sleep(4000);
