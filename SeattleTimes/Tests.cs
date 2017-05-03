@@ -36,11 +36,14 @@ namespace SeattleTimes
 		public void FirstTest()
 		{
 			app.Tap("up");
+			app.Screenshot("Let's start by Tapping on the Hamburger Icon");
 			app.Tap("Top Stories");
+			app.Screenshot("Then we Tapped on 'Top Stories'");
 
 			app.Tap("up");
-			app.Tap("Local News");
 			app.Screenshot();
+			app.Tap("Local News");
+			app.Screenshot("Then we Tapped 'Local News'");
 
 		}
 
