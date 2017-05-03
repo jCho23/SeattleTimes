@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{155289DB-8BF2-4FCF-94FF-D5AA746D1B2D}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SeattleTimes/Tests.cs">
+    <Files>
+      <File FileName="SeattleTimes/AppInitializer.cs" Line="1" Column="1" />
+      <File FileName="SeattleTimes/Tests.cs" Line="31" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SeattleTimes PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
