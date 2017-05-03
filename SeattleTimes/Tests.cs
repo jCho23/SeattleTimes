@@ -34,15 +34,17 @@ namespace SeattleTimes
 		}
 
 		[Test]
-		public void FirstTest()
+		public void HamburgerIconTest()
 		{
 			app.Tap("up");
 			app.Screenshot("Let's start by Tapping on the Hamburger Icon");
+			Thread.Sleep(4000);
 			app.Tap("Top Stories");
 			app.Screenshot("Then we Tapped on 'Top Stories'");
 
 			app.Tap("up");
 			app.Screenshot("We Tapped on the Hamburger Icon");
+			Thread.Sleep(4000);
 			app.Tap("Local News");
 			app.Screenshot("Next we Tapped 'Local News'");
 
