@@ -23,12 +23,20 @@ namespace SeattleTimes
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
+			app.Screenshot("App Launched");
 		}
 
 		[Test]
-		public void AppLaunches()
+		public void Repl()
 		{
 			app.Repl();
 		}
+
+		[Test]
+		public void FirstTest()
+		{
+			
+		}
+
 	}
 }
