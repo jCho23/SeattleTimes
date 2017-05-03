@@ -4,6 +4,7 @@ using System.Linq;
 using NUnit.Framework;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using System.Threading;
 
 namespace SeattleTimes
 {
@@ -41,9 +42,11 @@ namespace SeattleTimes
 			app.Screenshot("Then we Tapped on 'Top Stories'");
 
 			app.Tap("up");
-			app.Screenshot();
+			app.Screenshot("We Tapped on the Hamburger Icon");
 			app.Tap("Local News");
-			app.Screenshot("Then we Tapped 'Local News'");
+			app.Screenshot("Next we Tapped 'Local News'");
+
+			app.ScrollDown();
 
 		}
 
